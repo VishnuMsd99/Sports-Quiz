@@ -1,0 +1,297 @@
+/* /////Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../img/sports.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container {
+    width: 940px;
+    min-height: 350px;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
+    padding: 80px 90px;
+    display: flex;
+}
+
+.leftSide, .rightSide {
+    width: 50%;
+}
+
+.leftSide img {
+    height: 300px;
+    width: 300px;
+}
+
+.rightSide h1 {
+    color: rgb(21, 214, 79);
+    margin: 20px auto 10px;
+    font-size: 2.1rem;
+    font-family: 'Paytone One', sans-serif;
+
+}
+
+.rightSide h2 {
+    color: rgba(3, 3, 3, 0.932);
+    font-size: 1.8rem;
+}
+
+.rightSide ul {
+    color: #444;
+    font-size: 1.6rem;
+    margin-top: 5px;
+    font-weight: 600;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.rightSide ul li {
+    margin-top: 5px;
+}
+
+.rightSide a {
+    background-color: rgba(18, 212, 76, 0.89);
+    border-radius: 100px;
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 25px;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Paytone One', sans-serif;
+}
+
+.rightSide a:hover {
+    text-decoration: underline;
+    background-color: rgb(17, 182, 17);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+
+
+}
+
+
+.box {
+    background-color: aliceblue;
+    border-radius: 10px;
+    min-height: 400px;
+    width: 640px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding: 25px;
+    margin: auto;
+
+
+}
+
+.title {
+    border-bottom: 1px solid #464646;
+    color: #464646;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Paytone One', sans-serif;
+}
+
+.title span {
+    background-color: rgb(17, 182, 17);
+    border: #444 solid 1px;
+    border-radius: 100px;
+    padding: 2.5px;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.timerBox, .scoreBox {
+    border-radius: 100px;
+    margin-left: 10px;
+    padding: 8px 15px;
+    border: 1px solid #444;
+    color: #444;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.questionBox {
+    background-color: rgb(17, 182, 17);
+    color: #fff;
+    border-radius: 10px;
+    padding: 8px 15px;
+    margin-left: 10px;
+
+}
+
+
+
+.optionBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px 0;
+    margin-left: 10px;
+    gap: 15px;
+
+}
+
+.optionBox span {
+    background-color: #444;
+    border-radius: 10px;
+    color: #fff;
+    border: 1px solid #444;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.optionBox span.right {
+    background-color: rgb(17, 182, 17);
+    border-color: rgb(17, 182, 17);
+    color: #ffff;
+}
+
+.optionBox span.wrong {
+    background-color: rgb(233, 25, 10);
+    border-color: rgb(233, 25, 10);
+    color: #ffff;
+}
+
+
+
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.footer button {
+    background-color: rgb(17, 182, 17);
+    border-radius: 5px;
+    padding: 7px 15px;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    font-size: 1.5rem;
+    font-family: 'Paytone One', sans-serif;
+    cursor: pointer;
+}
+
+.footer button:hover {
+    text-decoration: underline;
+    background-color: rgb(17, 182, 17);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+
+}
+
+.resultBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+    gap: 15px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.resultBox *:nth-child(odd) {
+    text-align: right;
+}
+
+.resultBox span {
+    font-weight: 600;
+}
+
+.box p {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.box p a {
+    margin-left: 4px;
+    font-weight: 600;
+
+
+}
+
+.box p a:hover {
+    color: rgb(17, 182, 17);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    text-decoration: none;
+
+}
+
+
+.buttonBox {
+    border-top: 1px solid #444;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.buttonBox a {
+    background-color: rgb(17, 182, 17);
+    border-radius: 50px;
+    border: 0;
+    text-decoration: none;
+    outline: none;
+    padding: 9px 15px;
+    margin-top: 30px;
+    display: inline-block;
+    color: #fff;
+
+
+}
+
+.buttonBox a:hover {
+    text-decoration: underline;
+    background-color: rgb(17, 182, 17);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+
+}
+
+@media (max-width:768px) {
+    .leftSide {
+        display: none;
+    }
+
+    .container, .box {
+        width: 425px;
+    }
+
+    .rightSide {
+        width: 100%;
+    }
+
+    .optionBox {
+        grid-template-columns: 1fr;
+    }
+
+    .rightSide ul {
+        font-size: 1.1rem;
+    }
+}
