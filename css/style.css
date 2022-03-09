@@ -228,6 +228,7 @@ body {
 .box p {
     display: flex;
     justify-content: flex-end;
+    margin-top: 30px;
 
 }
 
@@ -285,6 +286,9 @@ body {
 
     .rightSide {
         width: 100%;
+    }
+    .rightSide h1{
+        font-size: 1.3rem;
     }
 
     .optionBox {
