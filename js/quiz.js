@@ -163,4 +163,154 @@ let quiz = [
         ],
         answer: 4,
     },
+    {
+        question: "The nickname of Glenn McGrath is what??",
+        option: [
+            "Pigeon",
+            "PBig Bird",
+            "Penguin",
+            "Ooh Ahh",
+        ],
+        answer: 1,
+    },
+    {
+        question: "India won its first Olympic hockey gold in...?",
+        option: [
+            "1932",
+            "1928",
+            "1936",
+            "1948",
+        ],
+        answer: 2,
+    },
+    {
+        question: "Which player has scored the most runs in a single Test innings?",
+        option: [
+            "Graham Gooch",
+            "Matthew Hayden",
+            "Brian Lara",
+            "Sachin",
+        ],
+        answer: 3,
+    },
+    {
+        question: "Who was the 1st ODI captain for India?",
+        option: [
+            "Ajith Wadekar",
+            "Bishen Singh Bedi",
+            "Nawab Pataudi",
+            "Vinoo Mankad",
+        ],
+        answer: 1,
+    },
+    {
+        question: "What is the name of the person that controls a football match?",
+        option: [
+            "An umpire",
+            "A referee",
+            "A spectator",
+            "A goalkeeper",
+        ],
+        answer: 2,
+    },
+    {
+        question: "Who was the first captain of Indian Test team?",
+        option: [
+            "Vijay Hazare",
+            "Lala Amarnath",
+            "Vijay Merchantr",
+            "C K Nayudu",
+        ],
+        answer: 4,
+    },
+    {
+        question: "Which country won the Cricket World Cup in 1999?",
+        option: [
+            "Australia",
+            "South Africa",
+            "Pakistan",
+            "England",
+        ],
+        answer: 1,
+    },
+    {
+        question: " When was the first cricket Test match played?",
+        option: [
+            "1873",
+            "1877",
+            "1870",
+            "1788",
+        ],
+        answer: 2,
+    },
+    {
+        question: "What does VAR stand for?",
+        option: [
+            "Very Awful Referee",
+            "Video Assistant Referee",
+            "Virtual Assistant Referee",
+            "Vincent and Rupert",
+        ],
+        answer: 2,
+    },
+    {
+        question: "How high is a full-size goal post?",
+        option: [
+            "5 feet",
+            "6 feet",
+            "8 feet",
+            "10 feet",
+        ],
+        answer: 3,
+    },
+    {
+        question: "Which English Premier club are known as The Red Devils?",
+        option: [
+            "Arsenal",
+            "Newcastle United",
+            "Manchester United",
+            "Chelsea",
+        ],
+        answer: 3,
+    },
+    {
+        question: "In football a team are allowed more than 11 players on the pitch at any time",
+        option: [
+            "True",
+            "False",
+            "None of above",
+            "None of these",
+        ],
+        answer: 2,
+    },
+    {
+        question: "How many times have Brazil won the World Cup?",
+        option: [
+            "3",
+            "4",
+            "6",
+            "5",
+        ],
+        answer: 4,
+    },
+    {
+        question: "Nike name of Kohli?",
+        option: [
+            "Chikku",
+            "virat",
+            "Caption",
+            "King",
+        ],
+        answer: 1,
+    },
+    {
+        question: "2018 Fifa world cup winners?",
+        option: [
+            "Brazil",
+            "Germany",
+            "France",
+            "Argentina",
+        ],
+        answer: 3,
+    },
 ];
